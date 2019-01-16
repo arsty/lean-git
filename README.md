@@ -1,23 +1,24 @@
-1¡¢³õÊ¼»¯git£¬ÓÃ»§Ãû£¬ÓÊÏä£º
-	git config --global user.name "Your Name"
-	git config --global user.email "email@example.com"
+1ã€åˆå§‹åŒ–gitï¼Œç”¨æˆ·åï¼Œé‚®ç®±ï¼š
+	`git config --global user.name "Your Name"`
+	`git config --global user.email "email@example.com"`
 
-2¡¢ÅäÖÃSSHÃÜÔ¿£º
-	ÔÚ.sshÄ¿Â¼ÏÂ£¬½øÈëGit Bash:  ssh-keygen -t rsa -C "youremail@example.com"£¬´´½¨Á½¸öÎÄ¼ş
-	¸´ÖÆid_rsa.pubÖĞµÄkeyµ½GitHubÉÏ
+2ã€é…ç½®SSHå¯†é’¥ï¼š
+	åœ¨.sshç›®å½•ä¸‹ï¼Œè¿›å…¥Git Bash:  `ssh-keygen -t rsa -C "youremail@example.com"`ï¼Œåˆ›å»ºä¸¤ä¸ªæ–‡ä»¶
+	å¤åˆ¶id_rsa.pubä¸­çš„keyåˆ°GitHubä¸Š
 
-3¡¢³õÊ¼»¯±¾µØ²Ö¿âÊ¹ÓÃ£ºgit init
+3ã€åˆå§‹åŒ–æœ¬åœ°ä»“åº“ä½¿ç”¨ï¼š`git init`
 
-4¡¢°ÑËùÓĞÎÄ¼ş¶¼Ìí¼Óµ½Ôİ´æÇø£ºgit add -A
+4ã€æŠŠæ‰€æœ‰æ–‡ä»¶éƒ½æ·»åŠ åˆ°æš‚å­˜åŒºï¼š`git add -A`
 
-5¡¢Ìí¼Ó¾ßÌåÎÄ¼şµ½Ôİ´æÇø£ºgit add ÎÄ¼şÃû.ºó×ºÃû ÎÄ¼şÃû.ºó×ºÃû
+5ã€æ·»åŠ å…·ä½“æ–‡ä»¶åˆ°æš‚å­˜åŒºï¼š`git add æ–‡ä»¶å.åç¼€å æ–‡ä»¶å.åç¼€å`
 
-6¡¢°ÑÔİ´æÇøµÄÎÄ¼şÌá½»µ½²Ö¿â£º git commit -m "ÃèÊö"
+6ã€æŠŠæš‚å­˜åŒºçš„æ–‡ä»¶æäº¤åˆ°ä»“åº“ï¼š `git commit -m "æè¿°"`
 
-7¡¢°Ñ±¾µØ²Ö¿âÓëÔ¶³Ì²Ö¿âÏò¹ØÁª£ºgit remote add origin ²Ö¿âµØÖ·,Èç:git@github.com:arsty/acs.git
+7ã€æŠŠæœ¬åœ°ä»“åº“ä¸è¿œç¨‹ä»“åº“å‘å…³è”ï¼šgit remote add origin ä»“åº“åœ°å€,å¦‚:`git@github.com:arsty/acs.git`
+ä¹Ÿå¯ä»¥ç›´æ¥`git clone ä»“åº“åœ°å€`ï¼Œè¿›è¡Œå…³è”
 
-8¡¢°Ñ±¾µØ²Ö¿âÍÆËÍµ½Ô¶³Ì²Ö¿â£ºgit push
+8ã€æŠŠæœ¬åœ°ä»“åº“æ¨é€åˆ°è¿œç¨‹ä»“åº“ï¼š`git push`
 
-9¡¢ÈôµÚÒ»´ÎÍÆËÍĞèÒªÊ¹ÓÃ£ºgit push -u origin master
+9ã€è‹¥ç¬¬ä¸€æ¬¡æ¨é€éœ€è¦ä½¿ç”¨ï¼š`git push -u origin master`
 
-P.s: originÊÇÔ¶³Ì²Ö¿âµÄÃû³Æ£¬GitÄ¬ÈÏµÄ½Ğ·¨£¬¿ÉÒÔ¸ÄÎª±ğµÄ
+P.s: originæ˜¯è¿œç¨‹ä»“åº“çš„åç§°ï¼ŒGité»˜è®¤çš„å«æ³•ï¼Œå¯ä»¥æ”¹ä¸ºåˆ«çš„
